@@ -11,20 +11,19 @@
   </head>
 
   <body>
+    <center>
     <div class="col-xs-12 header_div text-center">
       <h2>Animal sounds</h2>
       <p>Note: This website can recognise dog, cat, horse, hamster or duck sounds.</p>
     </div>
-    <div class="main_div">
-      <center>
+    <br>
         <br>
-        <button class="btn btn-warning" onclick="startClassification();">START</button>
+        <button class="btn btn-warning" id="start" onclick="startClassification();">START</button>
         <h3 class="audio" id="result_label">I can hear - </h3>
         <h4 class="accuracy" id="result_confidence">Accuracy - </h4>
         <br>
         <img src="default.png" id="dog" width="300" height="300">
-      </center>
-    </div>
+    </center>
     <div class="copy_right_footer">
       Developed by - Jude Alaali
     </div>
